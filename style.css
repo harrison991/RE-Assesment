@@ -3,6 +3,14 @@ body {
     font-family: "Roboto", "sans-serif";
 }
 
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Add some spacing from the content above */
+}
+
+
 .main {
     justify-content: center;
     text-align: center;
