@@ -10,6 +10,40 @@ body {
   margin-top: 20px; /* Add some spacing from the content above */
 }
 
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px; /* Add some spacing from the content above */
+}
+
+.author {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px; /* Add some spacing from the content above */
+}
+
+.extravid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Add some spacing from the content above */
+}
+
+.extravidtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px; /* Add some spacing from the content above */
+}
+
 * {box-sizing: border-box;}
 
 .slideshow-container {
