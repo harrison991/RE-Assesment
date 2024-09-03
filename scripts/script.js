@@ -1,3 +1,5 @@
+//Copyright Harrison Fluck 2024. All rights reserved
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
