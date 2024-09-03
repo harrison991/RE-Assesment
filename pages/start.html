@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="/content/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/style.css"/>
     <title>The Parable of the Sower</title>
   </head>
   <body>
@@ -54,20 +53,25 @@
       <button onclick="window.location.href='index.html'">Done</button>
     </div>
 
-    <div class="extravidtitle">
-      <h2>Another short video explination (Not Mine)</h2>
-    </div>
-    <div class="video">
-      <iframe
-        width="1280"
-        height="720"
-        src="https://www.youtube.com/embed/sSZW67byzpc"
-        title="Which One Are You? The Parable of the Sower"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen="true"
-      ></iframe>
+    <div class="dropdown">
+      <button class="dropdown-btn">Toggle Additional Video</button>
+      <div class="dropdown-content">
+        <div class="extravidtitle">
+          <h2>Another short video explanation (Not Mine)</h2>
+        </div>
+        <div class="video">
+          <iframe
+            width="1280"
+            height="720"
+            src="https://www.youtube.com/embed/sSZW67byzpc"
+            title="Which One Are You? The Parable of the Sower"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen="true"
+          ></iframe>
+        </div>
+      </div>
     </div>
 
     <script src="/scripts/script.js"></script>

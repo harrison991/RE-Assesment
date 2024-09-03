@@ -24,3 +24,12 @@ function showSlides(n) {
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
 }
+
+document.querySelector(".dropdown-btn").addEventListener("click", function () {
+    let content = document.querySelector(".dropdown-content");
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });

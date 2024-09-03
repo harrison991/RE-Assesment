@@ -3,6 +3,43 @@ body {
   font-family: 'Roboto', 'sans-serif';
 }
 
+/* Style for dropdown button */
+.dropdown-btn {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size */
+  font-family: 'Roboto', sans-serif; /* Font family */
+  transition: background-color 0.3s; /* Smooth transition */
+  display: block;
+  margin: 20px auto; /* Center align with margin */
+}
+
+/* Hover effect for dropdown button */
+.dropdown-btn:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Style for dropdown content */
+.dropdown-content {
+  display: none; /* Hidden by default */
+  margin-top: 10px;
+  text-align: center; /* Center align text */
+}
+
+/* Additional styles for alignment */
+.video,
+.extravidtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Add spacing between elements */
+}
+
+
 /* Style for button inside the main div */
 .main input[type='button'] {
   background-color: #4caf50; /* Green background */
